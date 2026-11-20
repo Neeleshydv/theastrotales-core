@@ -1,6 +1,6 @@
 {
   "name": "theastrotales-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "High-precision Vedic and Western astrology calculation engine by TheAstroTales. Calculates Julian Day, planetary positions, Ascendant / Rising signs, and Numerology formulas with zero external dependencies.",
   "main": "index.js",
   "module": "index.mjs",
