@@ -1,7 +1,7 @@
 {
-  "name": "astrotales-core",
-  "version": "1.0.1",
-  "description": "High-precision Vedic and Western astrology calculation engine. Calculates Julian Day, planetary positions, Ascendant / Rising signs, and Numerology formulas with zero external dependencies.",
+  "name": "theastrotales-core",
+  "version": "1.0.0",
+  "description": "High-precision Vedic and Western astrology calculation engine by TheAstroTales. Calculates Julian Day, planetary positions, Ascendant / Rising signs, and Numerology formulas with zero external dependencies.",
   "main": "index.js",
   "module": "index.mjs",
   "types": "index.d.ts",
@@ -19,16 +19,16 @@
     "ascendant",
     "zodiac",
     "numerology",
-    "astrotales"
+    "theastrotales"
   ],
-  "author": "AstroTales Editorial & Engineering Team <support@astrotales.co.in> (https://astrotales.co.in)",
+  "author": "TheAstroTales Engineering Team <team@theastrotales.com> (https://theastrotales.com)",
   "license": "MIT",
-  "homepage": "https://astrotales.co.in",
+  "homepage": "https://theastrotales.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Neeleshydv/astrotales-core.git"
+    "url": "git+https://github.com/Neeleshydv/theastrotales-core.git"
   },
   "bugs": {
-    "url": "https://github.com/Neeleshydv/astrotales-core/issues"
+    "url": "https://github.com/Neeleshydv/theastrotales-core/issues"
   }
 }

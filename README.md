@@ -1,29 +1,36 @@
-# astrotales-core 🌟
+# theastrotales-core 🌟
 
-[![npm version](https://img.shields.io/npm/v/astrotales-core.svg)](https://www.npmjs.com/package/astrotales-core)
+[![npm version](https://img.shields.io/npm/v/theastrotales-core.svg)](https://www.npmjs.com/package/theastrotales-core)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
-[![Powered by AstroTales](https://img.shields.io/badge/Powered%20By-AstroTales.co.in-6D28D9)](https://astrotales.co.in)
+[![Powered by TheAstroTales](https://img.shields.io/badge/Powered%20By-TheAstroTales.com-6D28D9)](https://theastrotales.com)
 
 > High-precision, zero-dependency Vedic and Western astrology calculation engine in JavaScript. Calculates Julian Days, Sidereal/Tropical Sun positions, Ascendant / Rising signs, and Pythagorean Numerology metrics.
 
-Developed and maintained by the engineering team at [AstroTales](https://astrotales.co.in) — your complete astrology, horoscope, and cosmic guidance platform.
+Developed and maintained by the engineering team at [TheAstroTales](https://theastrotales.com) — your complete astrology, horoscope, and cosmic guidance platform.
 
 ---
 
 ## 🚀 Live Demos & Online Calculators
 Experience the full-featured visual calculators powered by this engine:
-* **[Big Three Astrology Calculator (Sun, Moon & Rising Sign)](https://astrotales.co.in/big-three-astrology-calculator)**
-* **[Free Natal Birth Chart Analysis](https://astrotales.co.in/free-natal-chart-analysis)**
-* **[Complete Astrology Calculators Suite](https://astrotales.co.in/calculators)**
-* **[Daily Vedic & Western Horoscopes](https://astrotales.co.in/horoscope)**
-* **[Download AstroTales Mobile App for Android](https://astrotales.co.in/download)**
+* **[Big Three Astrology Calculator (Sun, Moon & Rising Sign)](https://theastrotales.com/calculator/big-three-calculator)**
+* **[Rising Sign (Ascendant) Calculator](https://theastrotales.com/calculator/rising-sign-calculator)**
+* **[Numerology Life Path Calculator](https://theastrotales.com/calculator/numerology-life-path-calculator)**
+* **[Synastry Chart & Love Compatibility](https://theastrotales.com/compatibility)**
+* **[Complete Astrology Calculators Suite](https://theastrotales.com/calculator)**
+* **[Daily Vedic & Western Horoscopes](https://theastrotales.com/horoscope)**
+* **[TheAstroTales Astrology Blog & In-Depth Guides](https://theastrotales.com/blog)**
+
+---
+
+## 🔒 Security & Offline Guarantee
+`theastrotales-core` is a **100% self-contained, offline astronomical mathematics library**. It performs zero network requests, connects to zero external APIs, and contains zero server credentials or tokens. All computations run purely in-memory on the client browser or Node.js environment.
 
 ---
 
 ## 📦 Installation
 
 ```bash
-npm install astrotales-core
+npm install theastrotales-core
 ```
 
 ---
@@ -37,7 +44,7 @@ const {
   getAscendant,
   calculateLifePathNumber,
   calculateDestinyNumber
-} = require('astrotales-core');
+} = require('theastrotales-core');
 
 // 1. Calculate Julian Day
 const jd = getJulianDay(2026, 11, 20, 12, 0); // Nov 20, 2026, 12:00 UT
@@ -80,15 +87,18 @@ Computes the exact degree of the eastern horizon at the time of birth, providing
 ### `calculateLifePathNumber(dateString)`
 Reduces a birthdate (`YYYY-MM-DD`) down to single-digit or master numbers (11, 22, 33).
 
+### `calculateDestinyNumber(name)`
+Reduces a full name string to its Pythagorean destiny resonance number.
+
 ---
 
 ## 🔗 Official Links & Resources
-* **Official Website:** [AstroTales](https://astrotales.co.in)
-* **Astrology Blog:** [AstroTales Blog](https://astrotales.co.in/blog)
-* **Android App on Google Play:** [AstroTales Android App](https://astrotales.co.in/download)
-* **GitHub Repository:** [Neeleshydv/astrotales-core](https://github.com/Neeleshydv/astrotales-core)
+* Official Website: [TheAstroTales](https://theastrotales.com)
+* Astrology Guides & Blog: [TheAstroTales Blog](https://theastrotales.com/blog)
+* Calculators Directory: [TheAstroTales Calculators](https://theastrotales.com/calculator)
+* GitHub Repository: [Neeleshydv/theastrotales-core](https://github.com/Neeleshydv/theastrotales-core)
 
 ---
 
 ## 📄 License
-MIT © [AstroTales](https://astrotales.co.in)
+MIT © [TheAstroTales](https://theastrotales.com)

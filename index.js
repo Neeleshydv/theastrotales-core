@@ -1,7 +1,7 @@
 /**
- * @file astrotales-core
+ * @file theastrotales-core
  * High-precision Vedic and Western astrology calculation engine.
- * Powered by AstroTales: https://astrotales.co.in
+ * Powered by TheAstroTales: https://theastrotales.com
  */
 
 const ZODIAC_SIGNS = [
